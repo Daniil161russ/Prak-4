@@ -1,0 +1,40 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+header{
+	display: flex;
+	justify-content: center;
+	padding-top: 0.5rem;
+}
+section{
+	display: flex;
+	justify-content: center;
+	margin:1rem;
+}
+.main-block{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 35rem;
+	background-color: green;
+}
+form{
+	display: flex;
+	
+}
+input[type="submit"]{
+	width: 8rem;
+	margin: 1rem auto ;
+}
+.roll{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	margin: 10px;
+}
+.resalt{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
